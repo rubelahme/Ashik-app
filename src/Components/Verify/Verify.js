@@ -226,17 +226,6 @@ const Verify = () => {
   const [img4, setImg4] = useState(null);
 
   const onSubmit = (data) => {
-    // const formData = new FormData();
-    // formData.append("img1", data.exampleReq[0]);
-    // formData.append("img2", data.example[0]);
-    // formData.append("img3", data.exampleRequired[0]);
-    // formData.append("img4", data.exampleReqQ[0]);
-    // fetch("http://localhost:5000/newImage", {
-    //   method: "POST",
-    //   body: formData,
-    // })
-    //   .then((res) => res.json())
-    //   .then((result) => navigate("/IdVerify"));
     const idImg = {
       img1: img1,
       img2: img2,
